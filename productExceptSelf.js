@@ -1,5 +1,5 @@
 var productExceptSelf = function (nums) {
-  const output = Array.nums(length).fill(1);
+  const output = Array(nums.length).fill(1);
 
   let left = 1;
   for (let i = 0; i < nums.length; i++) {
